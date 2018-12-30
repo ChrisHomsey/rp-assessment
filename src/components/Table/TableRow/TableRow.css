@@ -1,0 +1,14 @@
+.launch-badge {
+    height: 2rem;
+    width: auto;
+    margin: 0 auto;
+}
+
+.link-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.icon-fill {
+    fill: #13A2E8;
+}

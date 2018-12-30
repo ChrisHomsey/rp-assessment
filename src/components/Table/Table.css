@@ -1,0 +1,130 @@
+.table-header-container {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    padding: 1.25rem;
+    width: 100%;
+    height: 5rem;
+    border: 1px solid rgba(255,255,255, 0.66);
+    border-radius: 8px 8px 0 0;
+    background-color: rgba(255,255,255, 0.07);
+}
+
+.launch-table {
+    margin-top: -.5rem;
+    width: 100%;
+    border-spacing: 0 .5rem;
+}
+
+.launch-table-header {
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #9DB7CD 0%, #FFFFFF 80.21%);
+    box-shadow: 0px 2px 10px rgba(8, 13, 35, 0.366027);
+    text-align: left;
+    width: 100%;
+}
+
+.launch-table th {
+    height: 3rem;
+    padding: 0rem 1rem;
+    font-size: 17px;
+    font-weight: normal;
+    color: #043D67;
+    white-space: nowrap;
+}
+
+.launch-table tbody tr {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #FFFFFF;
+    padding-top: 1rem;
+}
+
+.launch-table td {
+    padding: 1rem;
+    padding-left: 1rem;
+    font-size: 15px;
+    color: #444444;
+}
+
+.launch-table tr td:first-child {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    text-align: center;
+    padding: 0;
+}
+
+.launch-table tr td:last-child {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    text-align: center;
+}
+
+/* Filter Menu starts */
+.filter-menu {
+    display: inline-flex;
+    float: right;
+    width: 400px;
+}
+
+.item {
+    position: relative;
+    display: block;
+    flex: auto;
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}
+
+.filter-menu input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+.filter-checkbox {
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: none;
+}
+
+.checkmark {
+    position: absolute;
+    top: .5rem;
+    left: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: none;
+}
+
+.checkmark:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.item input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.item .checkmark:after {
+    left: 3px;
+    top: 4px;
+    width: 1rem;
+    height: 1rem;
+    background: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square"><g id="Browser" transform="translate(-980.000000, -185.000000)" stroke="#13A2E8" stroke-width="2"><g id="Design" transform="translate(352.000000, 32.000000)"><g id="Table-Header" transform="translate(65.000000, 110.000000)"><g id="Filter-Checkboxes" transform="translate(558.000000, 38.000000)"><path d="M10.6866697,14.2274966 L6.24673949,10.4139696 L10.6866697,14.2274966 L10,15 L10.6866697,14.2274966 Z M10.6866697,14.2274966 L11.1040956,14.5860304 L10.6866697,14.2274966 L18,6 L10.6866697,14.2274966 Z" id="Line"></path></g></g></g></g></g></svg>') no-repeat;
+  }
+
+  

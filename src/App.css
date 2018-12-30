@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Geomanist';
+  src:  url('./static/fonts/geomanist-regular-webfont.woff2'),
+        url('./static/fonts/geomanist-regular-webfont.woff');
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url(./static/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Geomanist', Fallback, sans-serif;
+}
+
+.App {
+  width: 960px;
+  margin: 2rem auto;
+}

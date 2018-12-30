@@ -1,0 +1,19 @@
+.refresh-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    float: left;
+    background: none;
+    border: .1rem solid white;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+
+.refresh-icon {
+    fill: white;
+}
+
+right-menu {
+    width: 400px;
+    height: 3rem;
+    float: right;
+}
