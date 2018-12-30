@@ -6,7 +6,7 @@ A simple app that connects to the [SpaceX API](https://github.com/r-spacex/Space
 
 ## Design
 
-Copying the original design wasn't too bad. 
+Copying the original design wasn't too hard. 
 
 I would say that the biggest design challenge was styling the `<table>` elements. My first instinct was to render each launch element as a div, but then I realized that the semantic solution would be to render all data into a table.
 
