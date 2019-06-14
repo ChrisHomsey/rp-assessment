@@ -24,6 +24,10 @@ I used the **v3 of the SpaceX API** as I thought it was appropriate to get the l
 
 One of the more challenging parts of this was creating filters to organize the data that would stack with each other if the user checked multiple checkboxes. There may be a library that makes this easy, but I wanted to work through it.
 
+## Author
+**Chris Homsey**
 
+* Feel free to check out my [portfolio](https://www.chrishomsey.com) if you'd like!
+* Check out my latest [projects](https://www.chrishomsey.com/portfolio/development) while you're at it!
 
 
